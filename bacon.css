@@ -1,0 +1,69 @@
+/*
+Cechi Shi
+CSE 154 Section AN
+Student #: 1238390
+
+Homework 6: Kevin Bacon
+This is the universal style sheet for pages of the website.
+*/
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+body, .stripe {
+	background-color: #DAD9D4;
+}
+
+#frame, #main, form, table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#frame {
+	width: 90%;
+	border: 5px solid gold;
+	border-radius: 0.7em;
+}
+
+#banner, #w3c {
+	background-image: url(/images/kevinbacon/banner-background.png);
+	color: white;
+}
+
+#banner, #w3c, #main, form {
+	padding: 1em;
+}
+
+#main, table, fieldset div {
+	text-align: center;
+}
+
+#main {
+	background-color: lightblue;
+}
+
+form {
+	width: 24em;
+}
+
+fieldset {
+	text-align: left;
+}
+
+fieldset div {
+}
+
+table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+.title {
+	font-style: italic;
+}
+
+td {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
