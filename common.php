@@ -95,7 +95,7 @@ function bottom() {
 }
 // Creates a database and returns it
 function sql() {
-	$db = new PDO("mysql:dbname=imdb", "cechishi", "JC4UtOONOq");
+	$db = new PDO("mysql:dbname=imdb", "xiaoyuqu", "MzVoT9klYG");
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	return $db;
 }
